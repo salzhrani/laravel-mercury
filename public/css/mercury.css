@@ -2468,7 +2468,7 @@ label input[type=radio] {
  *----------------------------------------------------------------------------*/
 
 form fieldset.buttons .commit input {
-  background-image: url(/assets/mercury/button.png);
+  background-image: url(/bundles/laravel-mercury/img/button.png);
 }
 /*
  * dialog.css
@@ -2476,80 +2476,80 @@ form fieldset.buttons .commit input {
 .mercury-dialog.loading,
 .mercury-select.loading,
 .mercury-palette.loading {
-  background-image: url(/assets/mercury/loading-light.gif);
+  background-image: url(/bundles/laravel-mercury/img/loading-light.gif);
 }
 .mercury-panel.loading {
-  background-image: url(/assets/mercury/loading-dark.gif);
+  background-image: url(/bundles/laravel-mercury/img/loading-dark.gif);
 }
 .mercury-panel h1 a.mercury-panel-close {
-  background-image: url(/assets/mercury/close.png);
+  background-image: url(/bundles/laravel-mercury/img/close.png);
 }
 .mercury-snippet-panel input.filter {
-  background-image: url(/assets/mercury/search-icon.png);
+  background-image: url(/bundles/laravel-mercury/img/search-icon.png);
   background-position: 4px center;
 }
 /*
  * lightview.css
  *----------------------------------------------------------------------------*/
 .mercury-lightview.loading {
-  background-image: url(/assets/mercury/loading-dark.gif);
+  background-image: url(/bundles/laravel-mercury/img/loading-dark.gif);
 }
 .mercury-lightview h1.mercury-lightview-title a.mercury-lightview-close {
-  background-image: url(/assets/mercury/close.png);
+  background-image: url(/bundles/laravel-mercury/img/close.png);
 }
 #mercury_about {
-  background-image: url(/assets/mercury/temp-logo.png);
+  background-image: url(/bundles/laravel-mercury/img/temp-logo.png);
   background-position: 0 0;
 }
 /*
  * modal.css
  *----------------------------------------------------------------------------*/
 .mercury-modal.loading .mercury-modal-content-container {
-  background-image: url(/assets/mercury/loading-light.gif);
+  background-image: url(/bundles/laravel-mercury/img/loading-light.gif);
 }
 /*
  * toolbar.css
  *----------------------------------------------------------------------------*/
 .mercury-primary-toolbar .mercury-button.pressed {
-  background-image: url(/assets/mercury/toolbar/primary/_pressed.png);
+  background-image: url(/bundles/laravel-mercury/img/toolbar/primary/_pressed.png);
   background-position: top center;
 }
 .mercury-primary-toolbar .mercury-toolbar-expander {
-  background-image: url(/assets/mercury/toolbar/primary/_expander.png);
+  background-image: url(/bundles/laravel-mercury/img/toolbar/primary/_expander.png);
   background-position: center 90%;
 }
 .mercury-primary-toolbar .mercury-save-button em,
-.mercury-expander-button[data-button=save] em             { background-image: url(/assets/mercury/toolbar/primary/save.png) }
+.mercury-expander-button[data-button=save] em             { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/save.png) }
 .mercury-primary-toolbar .mercury-preview-button em,
-.mercury-expander-button[data-button=preview] em          { background-image: url(/assets/mercury/toolbar/primary/preview.png) }
+.mercury-expander-button[data-button=preview] em          { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/preview.png) }
 .mercury-primary-toolbar .mercury-undo-button em,
-.mercury-expander-button[data-button=undo] em             { background-image: url(/assets/mercury/toolbar/primary/undo.png) }
+.mercury-expander-button[data-button=undo] em             { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/undo.png) }
 .mercury-primary-toolbar .mercury-redo-button em,
-.mercury-expander-button[data-button=redo] em             { background-image: url(/assets/mercury/toolbar/primary/redo.png) }
+.mercury-expander-button[data-button=redo] em             { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/redo.png) }
 .mercury-primary-toolbar .mercury-insertLink-button em,
-.mercury-expander-button[data-button=insertLink] em       { background-image: url(/assets/mercury/toolbar/primary/insertlink.png) }
+.mercury-expander-button[data-button=insertLink] em       { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/insertlink.png) }
 .mercury-primary-toolbar .mercury-insertMedia-button em,
-.mercury-expander-button[data-button=insertMedia] em      { background-image: url(/assets/mercury/toolbar/primary/insertmedia.png) }
+.mercury-expander-button[data-button=insertMedia] em      { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/insertmedia.png) }
 .mercury-primary-toolbar .mercury-insertTable-button em,
-.mercury-expander-button[data-button=insertTable] em      { background-image: url(/assets/mercury/toolbar/primary/inserttable.png) }
+.mercury-expander-button[data-button=insertTable] em      { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/inserttable.png) }
 .mercury-primary-toolbar .mercury-insertCharacter-button em,
-.mercury-expander-button[data-button=insertCharacter] em  { background-image: url(/assets/mercury/toolbar/primary/insertcharacter.png) }
+.mercury-expander-button[data-button=insertCharacter] em  { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/insertcharacter.png) }
 .mercury-primary-toolbar .mercury-snippetPanel-button em,
-.mercury-expander-button[data-button=snippetPanel] em     { background-image: url(/assets/mercury/toolbar/primary/snippetpanel.png) }
+.mercury-expander-button[data-button=snippetPanel] em     { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/snippetpanel.png) }
 .mercury-primary-toolbar .mercury-historyPanel-button em,
-.mercury-expander-button[data-button=historyPanel] em     { background-image: url(/assets/mercury/toolbar/primary/historypanel.png) }
+.mercury-expander-button[data-button=historyPanel] em     { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/historypanel.png) }
 .mercury-primary-toolbar .mercury-notesPanel-button em,
-.mercury-expander-button[data-button=notesPanel] em       { background-image: url(/assets/mercury/toolbar/primary/notespanel.png) }
+.mercury-expander-button[data-button=notesPanel] em       { background-image: url(/bundles/laravel-mercury/img/toolbar/primary/notespanel.png) }
 .mercury-editable-toolbar .mercury-button {
-  background-image: url(/assets/mercury/toolbar/editable/buttons.png);
+  background-image: url(/bundles/laravel-mercury/img/toolbar/editable/buttons.png);
 }
 .mercury-editable-toolbar .mercury-button em {
-  background-image: url(/assets/mercury/toolbar/editable/buttons.png);
+  background-image: url(/bundles/laravel-mercury/img/toolbar/editable/buttons.png);
 }
 
 .mercury-snippet-toolbar .mercury-button {
-  background-image: url(/assets/mercury/toolbar/snippets/buttons.png);
+  background-image: url(/bundles/laravel-mercury/img/toolbar/snippets/buttons.png);
 }
 .mercury-snippet-toolbar .mercury-button em {
-  background-image: url(/assets/mercury/toolbar/snippets/buttons.png);
+  background-image: url(/bundles/laravel-mercury/img/toolbar/snippets/buttons.png);
 }

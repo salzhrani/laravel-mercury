@@ -101,29 +101,29 @@ window.Mercury = {
           redo:                ['Redo', 'Redo your last action'],
           sep:                 ' '
           },
-        insertLink:            ['Link', 'Insert Link', { modal: '/mercury/modals/link.html', regions: ['full', 'markdown'] }],
-        insertMedia:           ['Media', 'Insert Media (images and videos)', { modal: '/mercury/modals/media.html', regions: ['full', 'markdown'] }],
-        insertTable:           ['Table', 'Insert Table', { modal: '/mercury/modals/table.html', regions: ['full', 'markdown'] }],
-        insertCharacter:       ['Character', 'Special Characters', { modal: '/mercury/modals/character.html', regions: ['full', 'markdown'] }],
-        snippetPanel:          ['Snippet', 'Snippet Panel', { panel: '/mercury/panels/snippets.html' }],
+        insertLink:            ['Link', 'Insert Link', { modal: '/bundles/laravel-mercury/views/modals/link.html', regions: ['full', 'markdown'] }],
+        insertMedia:           ['Media', 'Insert Media (images and videos)', { modal: '/bundles/laravel-mercury/views/modals/media.html', regions: ['full', 'markdown'] }],
+        insertTable:           ['Table', 'Insert Table', { modal: '/bundles/laravel-mercury/views/modals/table.html', regions: ['full', 'markdown'] }],
+        insertCharacter:       ['Character', 'Special Characters', { modal: '/bundles/laravel-mercury/views/modals/character.html', regions: ['full', 'markdown'] }],
+        snippetPanel:          ['Snippet', 'Snippet Panel', { panel: '/bundles/laravel-mercury/views/panels/snippets.html' }],
         sep2:                  ' ',
-        historyPanel:          ['History', 'Page Version History', { panel: '/mercury/panels/history.html' }],
+        historyPanel:          ['History', 'Page Version History', { panel: '/bundles/laravel-mercury/views/panels/history.html' }],
         sep3:                  ' ',
-        notesPanel:            ['Notes', 'Page Notes', { panel: '/mercury/panels/notes.html' }]
+        notesPanel:            ['Notes', 'Page Notes', { panel: '/bundles/laravel-mercury/views/panels/notes.html' }]
         },
 
       editable: {
         _regions:              ['full', 'markdown'],
         predefined:            {
-          style:               ['Style', null, { select: '/mercury/selects/style.html', preload: true }],
+          style:               ['Style', null, { select: '/bundles/laravel-mercury/views/selects/style.html', preload: true }],
           sep1:                ' ',
-          formatblock:         ['Block Format', null, { select: '/mercury/selects/formatblock.html', preload: true }],
+          formatblock:         ['Block Format', null, { select: '/bundles/laravel-mercury/views/selects/formatblock.html', preload: true }],
           sep2:                '-'
           },
         colors:                {
-          backColor:           ['Background Color', null, { palette: '/mercury/palettes/backcolor.html', context: true, preload: true, regions: ['full'] }],
+          backColor:           ['Background Color', null, { palette: '/bundles/laravel-mercury/views/palettes/backcolor.html', context: true, preload: true, regions: ['full'] }],
           sep1:                ' ',
-          foreColor:           ['Text Color', null, { palette: '/mercury/palettes/forecolor.html', context: true, preload: true, regions: ['full'] }],
+          foreColor:           ['Text Color', null, { palette: '/bundles/laravel-mercury/views/palettes/forecolor.html', context: true, preload: true, regions: ['full'] }],
           sep2:                '-'
           },
         decoration:            {
